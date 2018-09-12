@@ -1,5 +1,5 @@
 """
-WSGI config for facturador_electronico project.
+WSGI config for fact_ele_sun project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'facturador_electronico.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'fact_ele_sun.settings')
 
 application = get_wsgi_application()
